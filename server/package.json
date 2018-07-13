@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "author": "Manish(mkjha9555@gmail.com",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js --ignore tests"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "4.16.3",
+    "mongoose": "5.2.3",
+    "nodemon": "^1.11.0",
+    "path-parser": "^2.0.2",
+    "shortid": "2.2.12",
+    "uuid": "^3.2.1",
+    "valid-url": "1.0.9"
+  }
+}
